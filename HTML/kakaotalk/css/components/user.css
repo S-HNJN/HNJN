@@ -1,0 +1,140 @@
+/* div.profile */
+.avatar{width: 50px;
+height: 50px;
+border-radius: 20px;
+margin-right: 5px;}
+
+main.friends .profile__etc{
+border-radius: 20px;
+border: 2px #069861 solid;
+padding: 7px;
+}
+
+.pofile__etc i{
+color: #069861;
+}
+
+/* div.multiprofile */
+.avatar--medium{
+width: 40px;
+height: 40px;
+border-radius: 15px;
+}
+
+.avatar-div{
+border: var(--main-border);
+background-color: #f5f5f5;
+margin-right: 10px;
+}
+
+/* 생일인 친구 */
+.birthday{
+border: red 1px solid;
+padding: 5px;
+border-radius: 15px;
+}
+
+.birthday i{
+color: red;
+}
+
+/* 업데이트한 친구 */
+.updated_friends__list > div{
+ position: relative;
+}
+
+.name{
+margin-top: 5px;
+width: 40px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: center;
+}
+
+.avatar--small{
+width: 30px;
+height: 30px;
+border-radius: 12px;
+border: 3px solid white;
+}
+
+main.chats .profile__info__avatar{
+position: relative;
+width: 50px;
+height: 50px;
+}
+
+.z_index_1{
+position: absolute;
+z-index: 1;
+bottom: 0px;
+left: 0px;
+}
+
+.z_index_2{
+position: absolute;
+z-index: 2;
+bottom: 0px;
+right: 0px;
+}  
+
+.z_index_3{
+position: absolute;
+z-index: 3;
+top: 0px;
+left: 12px;
+}
+
+.avatar--tiny{
+width: 22px;
+height: 22px;
+border-radius: 10px;
+margin-bottom: 5px;
+}
+
+.avatar-div--purple{
+  background-color: purple;
+}
+
+.recommand_friends h2>i{
+  color: white;
+}
+
+.기어{
+  position: relative;
+}
+
+.지갑{
+  padding: 20px;
+  padding-bottom: 5px;
+  background-color: yellow;
+}
+
+.주민등록등본{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.아이콘{
+  padding: 40px;
+}
+
+.아이콘 h1{
+width: 50px;
+height: 50px;
+}
+
+.아이콘 h6{
+  margin-top: 5px;
+  font-size: x-small;
+}
+
+.톡서랍{
+  position: relative;
+}
+
+.메일{
+  position: relative;
+}

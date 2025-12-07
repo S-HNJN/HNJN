@@ -1,0 +1,84 @@
+@import "reset.css"; 
+
+/* Jua 글꼴 설치 */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import "variables.css";
+
+/* Screens */
+@import "screens/login.css";
+
+/* Components */
+@import "components/status-bar_with_header.css";
+@import "components/nav.css";
+@import "components/advertising.css";
+@import "components/user.css";
+@import "components/friends.css";
+@import "components/badge.css";
+
+/* 글꼴 사용  */
+body {
+  font-family: 'Jua', sans-serif;
+ 
+}
+body > * {padding: 20px;}
+
+/* TEXT  */
+h1{font-size:xx-large;color:var(--main-txt-color);}
+h2{font-size: x-large;color:var(--main-txt-color);}
+h3{font-size:x-large;color:var(--sub-txt-color);}
+h4{font-size:large;color:var(--main-txt-color);}
+h5{font-size:large;color:var(--sub-txt-color);}
+h6{font-size:medium;color:var(--main-txt-color);}
+p{font-size: medium;color:var(--sub-txt-color);}
+
+/* 클래스 만들어 사용할 것들 */
+.flex_frequently{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_change_axis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_start{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.flex_end{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+
+.pd-b-20{
+ padding-block: 20px; 
+}
+
+main{
+  height: 500vh;
+  margin-top: 130px;
+}
+
+.bottom_margin_10{
+margin-bottom: 10px;
+}
+
+.bottom_margin_20{
+margin-bottom: 20px;
+}
+
+.right_margin_10{
+margin-right: 10px;
+}
+
+.left_margin_10{
+margin-left: 10px;
+}

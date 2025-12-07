@@ -1,0 +1,63 @@
+
+/* 2. login-header */
+header.login-header {
+
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+.login-header div{
+
+  margin: 20px;
+}
+
+
+/* 3. form */
+#login-form{
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+#login-form input{
+  width: 100%;
+  outline: none;
+
+  margin-block: 10px;
+  padding-block:20px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:focus{
+  border-color: #ffe812;
+
+}
+
+#login-form a{
+  font-size: small;
+}
+
+#login-form input[type="submit"],
+#login-form input[type="button"]{
+  background-color: #ffe812;
+  text-align: center;
+  border-radius: 5px;
+
+}
+

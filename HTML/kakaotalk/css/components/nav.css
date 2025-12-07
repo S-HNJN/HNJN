@@ -1,0 +1,15 @@
+
+/* 네비게이션 */
+nav{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+}
+nav i{
+  margin-bottom: 5px;
+}
+
+nav a{
+position: relative;
+}
